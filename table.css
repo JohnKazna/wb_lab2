@@ -1,0 +1,152 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+
+.main-table {
+    width: 100%;
+    height: 100%;
+}
+
+tbody {
+    display: table-row-group;
+}
+
+tr {
+    display: table-row;
+}
+
+.header {
+    width: 100%;
+    height: 20%;
+    background-color:#c6d9f1;
+}
+
+header {
+    position: relative;
+}
+
+header h3 {
+    margin-left: 3%;
+}
+
+header div {
+    position: absolute;
+    right: 3%;
+    top: 1%;
+    transform: translate(0, -37.5%);
+}
+
+.middle-section {
+    width: 50%;
+    height: 60%;
+    position: relative;
+}
+
+.middle-section p {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.middle-section section {
+    width: 100%;
+    height: 100%;
+}
+
+.middle-section aside {
+    height: 20%;
+    background-color: #eaf1dd;
+}
+
+.middle-section div {
+    height: 80%;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+    margin-left: 28.7%;
+
+}
+
+.middle-section h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.aside-left {
+    background-color:#fde9d9;
+    width: 25%;
+    height: 60%;
+}
+
+.aside-left a {
+    color: black;
+    text-decoration: none;
+}
+
+.aside-left table {
+    margin-left: 11%;
+}
+
+.aside-left td {
+    padding-top: 5.5px;
+    padding-bottom: 5.6px;
+}
+
+.aside-right {
+    width: 25%;
+    height: 60%;
+    position: relative;
+}
+
+.aside-right section {
+    width: 100%;
+    height: 100%;
+}
+
+.aside-right-top {
+    background-color: #fde9d9;
+    height: 80%;
+}
+
+.aside-right-bottom {
+    background-color: #eaf1dd;
+    height: 20%;
+}
+
+.aside-right p {
+    position: absolute;
+    right: 11%;
+    margin-top: 16;
+}
+
+.footer {
+    width: 100%;
+    height: 20%;
+    background-color:#c6d9f1;
+}
+
+footer {
+    position: relative;
+}
+
+footer p {
+    margin-left: 3%;
+}
+
+footer h3 {
+    position: absolute;
+    right: 3%;
+    top: 1%;
+    transform: translate(0, -98%);
+}
